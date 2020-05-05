@@ -1,0 +1,95 @@
+﻿@page "/"
+@using Syncfusion.Blazor.DocumentEditor
+@using Newtonsoft.Json
+@using System.IO
+@using Syncfusion.Blazor.Navigations 
+@using Microsoft.Azure.Storage
+@using Microsoft.Azure.Storage.File  
+
+<SfDocumentEditorContainer @ref="container" Height="650px" Width="1230px" ToolbarItems="@Items">
+    <DocumentEditorContainerEvents Created="OnCreated" OnToolbarClick="onItemClick"></DocumentEditorContainerEvents>
+</SfDocumentEditorContainer>
+
+@code{
+
+    SfDocumentEditorContainer container;
+
+    Object[] Items = new Object[] { "New", new CustomToolbarItemModel(){ Id="save", Text="Save", PrefixIcon="saveIcon"}, "Undo", "Redo", "Comments", "Image", "Table", "Hyperlink", "Bookmark", "TableOfContents", "Header",
+        "Footer", "PageSetup", "PageNumber", "Break", "Find", "LocalClipboard", "RestrictEditing"
+        };
+
+    string documentPath = @"D:\Samples\ASP.NET Core Succinctly.docx";
+
+    string connectionString = Connections.ConnectionString;
+    string shareReference = "documents";
+    string fileReference = "GiantPanda.docx";
+
+    private void OnCreated()
+    {
+
+        using (System.IO.FileStream fileStream = new System.IO.FileStream(documentPath, System.IO.FileMode.Open, System.IO.FileAccess.Read))
+        {
+            WordDocument document = WordDocument.Load(fileStream, ImportFormatType.Docx);
+            container.GetDocumentEditor().Open(JsonConvert.SerializeObject(document));
+            document.Dispose();
+        }
+
+        //CloudFileShare cloudFileShare = CloudStorageAccount.Parse(connectionString).CreateCloudFileClient().GetShareReference(shareReference);
+        //if (cloudFileShare.Exists())
+        //{
+        //    CloudFileDirectory dir = cloudFileShare.GetRootDirectoryReference();
+        //    if (dir.Exists())
+        //    {
+        //        CloudFile file = dir.GetFileReference(fileReference);
+        //        using (MemoryStream memoryStream = new MemoryStream())
+        //        {
+        //            file.DownloadToStream(memoryStream);
+        //            WordDocument document = WordDocument.Load(memoryStream, ImportFormatType.Docx);
+        //            container.GetDocumentEditor().Open(JsonConvert.SerializeObject(document));
+        //            document.Dispose();
+        //        }
+        //    }
+        //}
+    }
+
+    public async void onItemClick(ClickEventArgs args)
+    {
+        switch (args.Item.Id)
+        {
+            case "save":
+                DocumentEditorModule editor = container.GetDocumentEditor();
+                object base64Data = await editor.SaveAsBlob(FormatType.Docx);
+                Dictionary<string, string> documentContent = JsonConvert.DeserializeObject<Dictionary<string, string>>(base64Data.ToString());
+                byte[] data = Convert.FromBase64String(documentContent["data"]);
+
+                using (MemoryStream stream = new MemoryStream(data))
+                {
+                    using (var fileStream = new FileStream(documentPath, FileMode.Create, FileAccess.Write))
+                    {
+                        stream.CopyTo(fileStream);
+                    }
+                }
+
+                //DocumentEditorModule editor = container.GetDocumentEditor();
+                //object base64Data = await editor.SaveAsBlob(FormatType.Docx);
+                //Dictionary<string, string> documentContent = JsonConvert.DeserializeObject<Dictionary<string, string>>(base64Data.ToString());
+                //byte[] data = Convert.FromBase64String(documentContent["data"]);
+
+                //CloudFileShare cloudFileShare = CloudStorageAccount.Parse(connectionString).CreateCloudFileClient().GetShareReference(shareReference);
+                //if (cloudFileShare.Exists())
+                //{
+                //    using (MemoryStream stream = new MemoryStream(data))
+                //    {
+                //        cloudFileShare.GetRootDirectoryReference().GetFileReference(fileReference).UploadFromStream(stream);
+                //    }
+                //}
+                break;
+        }
+    }
+
+}
+<style>
+    .saveIcon:before {
+        content: '\e98e';
+    }
+</style>
