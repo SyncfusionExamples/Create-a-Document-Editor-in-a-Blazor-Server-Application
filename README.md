@@ -2,13 +2,16 @@
 
 The [Blazor Word Processor](https://www.syncfusion.com/blazor-components/blazor-word-processor/?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) is a component with editing capabilities like Microsoft Word. Also known as the document editor, it is used to create, edit, view, and print Word documents. This quick-start Blazor server app project will help you to learn how to add Blazor Document Editor component to the Blazor server application and demonstrate the working of prominent features like formatting, adding a table of contents, saving a document along with toolbar customization and open/save a document in Azure Cloud file storage.
 
-## Project prerequisites
-Make sure you have the compatible versions of .NET Core on your machine before starting to work on this project. You also need the following:
-* [Visual Studio 2019 (version 16.4+)]( https://visualstudio.microsoft.com/downloads)
-* [.NET Core SDK 3.1.201+](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+## Prerequisites
 
-## How to run this application
-To run this application, you need to first clone or download this ‘Create a Document Editor in a Blazor Server Application’ repository and then open it in Visual Studio 2019. Under Data folder, open the Connections file and change the ConnectionString property with your connection string for Azure. Now, build and run your project to view the output.
+* Visual Studio 2022
+
+## How to run the project
+
+* Checkout this project to a location in your disk.
+* Open the solution file using the Visual Studio 2022.
+* Restore the NuGet packages by rebuilding the solution.
+* Run the project.
 
 ## Further help
 
