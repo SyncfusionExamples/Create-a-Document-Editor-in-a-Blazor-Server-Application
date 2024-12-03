@@ -32,7 +32,7 @@ The Blazor Word Processor has a set of built-in feature modules to help you buil
 Render pages on demand so that large documents are loaded instantly with minimal memory consumption.
 
 ### Open, edit, and save
-The Blazor Word Processor introduces a new native file format called Syncfusion Document Text (*.sfdt). It helps maintain document importing and exporting purely inon the client -side.
+The Blazor Word Processor introduces a new native file format called Syncfusion&reg; Document Text (*.sfdt). It helps maintain document importing and exporting purely inon the client -side.
 
 #### Microsoft Word-compatible
 Open Word documents (DOCX, WordML, DOC, RTF, TXT).
@@ -102,12 +102,12 @@ All static text in the user interfaces of the Word Processor can be localized to
 [Community Forums](https://www.syncfusion.com/forums/blazor-components/word-processor?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) <br/><br/>
 [Suggest a feature](https://www.syncfusion.com/feedback/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples)
 
-## About Syncfusion Blazor Components
+## About Syncfusion&reg; Blazor Components
 Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to Word Processor, we provide popular Blazor components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), 
 [Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Diagram](https://www.syncfusion.com/blazor-components/blazor-diagram?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), and [Pivot Table](https://www.syncfusion.com/blazor-components/blazor-pivot-table/?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples).
 
-## About Syncfusion
-Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion has more than 23,000+ customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
+## About Syncfusion&reg;
+Founded in 2001 and headquartered in Research Triangle Park, N.C., Syncfusion&reg; has more than 23,000+ customers and more than 1 million users, including large financial institutions, Fortune 500 companies, and global IT consultancies.
  
 Today, we provide 1600+ controls and frameworks for web
 ([Blazor](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples),
@@ -141,7 +141,7 @@ millions in licensing fees by deploying our software.
 <hr style="height:0.3px;border:none;color:lightgrey;background-color:lightgrey;" />
 
 <p align="center">
-  <a href="mailto:sales@syncfusion.com?Subject=Syncfusion Blazor Word Processor - Github" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples">www.syncfusion.com</a> | 1-888-9 DOTNET <br>
+  <a href="mailto:sales@syncfusion.com?Subject=Syncfusion&reg; Blazor Word Processor - Github" target="_top">sales@syncfusion.com</a> | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples">www.syncfusion.com</a> | 1-888-9 DOTNET <br>
 </p>
 
 
