@@ -1,6 +1,6 @@
-# Create a Document Editor in a Blazor Server Application
+# Create a DOCX Editor (Document Editor) in a Blazor Server Application
 
-The [Blazor Word Processor](https://www.syncfusion.com/blazor-components/blazor-word-processor/?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) is a component with editing capabilities like Microsoft Word. Also known as the document editor, it is used to create, edit, view, and print Word documents. This quick-start Blazor server app project will help you to learn how to add Blazor Document Editor component to the Blazor server application and demonstrate the working of prominent features like formatting, adding a table of contents, saving a document along with toolbar customization and open/save a document in Azure Cloud file storage.
+The Syncfusion<sup style="font-size:70%">&reg;</sup> [Blazor DOCX Editor](https://www.syncfusion.com/docx-editor-sdk/blazor-docx-editor?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) (Document Editor) is a component with editing capabilities like Microsoft Word. Also known as the document editor, it is used to create, edit, view, and print Word documents. This quick-start Blazor server app project will help you to learn how to add Blazor Document Editor component to the Blazor server application and demonstrate the working of prominent features like formatting, adding a table of contents, saving a document along with toolbar customization and open/save a document in Azure Cloud file storage.
 
 ## Prerequisites
 
@@ -20,19 +20,19 @@ To get more help, check out the [ASP.NET Core Blazor documentation](https://docs
 ## Features and benefits
 
 ### High performance
-The Blazor Word Processor is designed and optimized for high performance in every aspect.
+The Blazor DOCX Editor is designed and optimized for high performance in every aspect.
 
 #### Fast editing
 All the word processing features are written in Blazor, which runs completely on the client side, allowing users to type and edit as fast as possible without experiencing any lag.
 
 #### Lightweight
-The Blazor Word Processor has a set of built-in feature modules to help you build a lightweight word processor in your application without losing loading speed.
+The Blazor DOCX Editor has a set of built-in feature modules to help you build a lightweight DOCX Editor in your application without losing loading speed.
 
 #### Virtualization
 Render pages on demand so that large documents are loaded instantly with minimal memory consumption.
 
 ### Open, edit, and save
-The Blazor Word Processor introduces a new native file format called Syncfusion&reg; Document Text (*.sfdt). It helps maintain document importing and exporting purely inon the client -side.
+The Blazor DOCX Editor introduces a new native file format called Syncfusion&reg; Document Text (*.sfdt). It helps maintain document importing and exporting purely inon the client -side.
 
 #### Microsoft Word-compatible
 Open Word documents (DOCX, WordML, DOC, RTF, TXT).
@@ -44,10 +44,10 @@ Import SFDT-format document content from a local file or string.
 Export document content to SFDT and DOCX formats as a blob or downloadable file.
 
 ### Find and replace
-The Blazor Word Processor comes with a Microsoft Word-inspired navigation pane. It provides intuitive UI options to searching text, navigating between results, and replacing results with other text.
+The Blazor DOCX Editor comes with a Microsoft Word-inspired navigation pane. It provides intuitive UI options to searching text, navigating between results, and replacing results with other text.
 
 ### Printing
-The Blazor Word Processor allows users to print the entire document or a specific page directly from the browser.
+The Blazor DOCX Editor allows users to print the entire document or a specific page directly from the browser.
 
 ### User-friendly interactions
 Enjoy a smooth and user-friendly experience through mouse, touch, and keyboard interfaces.
@@ -62,7 +62,7 @@ Rapidly scroll the document pages.
 Interactively zoom in on and zoom out of the page contents. Users can easily change the view to fit a page or a page's width.
 
 ### Seamless editing
-The Blazor Word Processor provides a seamless editing experience, offering intuitive and touch-friendly UI options like context menus, dialogs, and a navigation pane.
+The Blazor DOCX Editor provides a seamless editing experience, offering intuitive and touch-friendly UI options like context menus, dialogs, and a navigation pane.
 
 #### Clipboard
 [Cut, copy, and paste](https://blazor.syncfusion.com/documentation/document-editor/clipboard/?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) formatted content within the same document. You can also paste plain text to and from other applications.
@@ -83,16 +83,16 @@ Interactively resize an image using a mouse or touch gestures.
 Adjust row height or column width interactively.
 
 ### Document elements
-The Blazor Word Processor includes all the commonly used document elements: Text, Images, Tables, [Hyperlinks](https://blazor.syncfusion.com/demos/document-editor/hyperlinks-and-bookmarks?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), Bookmarks, [Tables of contents](https://blazor.syncfusion.com/demos/document-editor/table-of-contents?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), Page fields, Sections, [Headers and footers](https://blazor.syncfusion.com/demos/document-editor/headers-and-footers?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples).
+The Blazor DOCX Editor includes all the commonly used document elements: Text, Images, Tables, [Hyperlinks](https://blazor.syncfusion.com/demos/document-editor/hyperlinks-and-bookmarks?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), Bookmarks, [Tables of contents](https://blazor.syncfusion.com/demos/document-editor/table-of-contents?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), Page fields, Sections, [Headers and footers](https://blazor.syncfusion.com/demos/document-editor/headers-and-footers?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples).
 
 ### Formatting
-The Blazor Word Processor includes all the commonly used document formatting options: [Text formatting](https://blazor.syncfusion.com/demos/document-editor/character-format?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Paragraph formatting](https://blazor.syncfusion.com/demos/document-editor/paragraph-format?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Bullets and numbering](https://blazor.syncfusion.com/demos/document-editor/bullets-and-numbering?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Styles](https://blazor.syncfusion.com/demos/document-editor/styles?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Table formatting](https://blazor.syncfusion.com/demos/document-editor/table-format?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Page settings](https://blazor.syncfusion.com/demos/document-editor/section-format?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) 
+The Blazor DOCX Editor includes all the commonly used document formatting options: [Text formatting](https://blazor.syncfusion.com/demos/document-editor/character-format?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Paragraph formatting](https://blazor.syncfusion.com/demos/document-editor/paragraph-format?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Bullets and numbering](https://blazor.syncfusion.com/demos/document-editor/bullets-and-numbering?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Styles](https://blazor.syncfusion.com/demos/document-editor/styles?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Table formatting](https://blazor.syncfusion.com/demos/document-editor/table-format?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Page settings](https://blazor.syncfusion.com/demos/document-editor/section-format?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) 
 
 ### Localization
-All static text in the user interfaces of the Word Processor can be localized to any supported language.
+All static text in the user interfaces of the DOCX Editor can be localized to any supported language.
 
 ## Related links
-[Learn More about Blazor Word Processor](https://www.syncfusion.com/blazor-components/blazor-word-processor?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) <br/><br/>
+[Learn More about Blazor DOCX Editor](https://www.syncfusion.com/blazor-components/blazor-word-processor?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) <br/><br/>
 [Download Free Trial](https://www.syncfusion.com/downloads?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) <br/><br/>
 [Pricing](https://www.syncfusion.com/sales/products/blazor?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) <br/><br/>
 [Documentation](https://blazor.syncfusion.com/documentation/document-editor/?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) <br/><br/>
@@ -103,7 +103,7 @@ All static text in the user interfaces of the Word Processor can be localized to
 [Suggest a feature](https://www.syncfusion.com/feedback/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples)
 
 ## About Syncfusion&reg; Blazor Components
-Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to Word Processor, we provide popular Blazor components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), 
+Syncfusion's [Blazor components](https://www.syncfusion.com/blazor-components?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples) library offers over 70 UI components to work with Blazor server-side and client-side (Blazor WebAssembly) projects seamlessly. In addition to DOCX Editor, we provide popular Blazor components such as [DataGrid](https://www.syncfusion.com/blazor-components/blazor-datagrid?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Charts](https://www.syncfusion.com/blazor-components/blazor-charts?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), 
 [Scheduler](https://www.syncfusion.com/blazor-components/blazor-scheduler?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), [Diagram](https://www.syncfusion.com/blazor-components/blazor-diagram?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples), and [Pivot Table](https://www.syncfusion.com/blazor-components/blazor-pivot-table/?utm_source=github&utm_medium=listing&utm_campaign=blazor-word-processor-github-samples).
 
 ## About Syncfusion&reg;
